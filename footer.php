@@ -39,7 +39,7 @@
       <div class="mr-md-auto text-center text-md-left">
         
         <div class="credits">
-          Developed By Omkar 
+          Developed By Omkar & Prince
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">

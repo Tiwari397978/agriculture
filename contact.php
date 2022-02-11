@@ -68,10 +68,11 @@ if(isset($_POST['submit']))
           <h3>We'd Love To Hear From You!!!</h3>
           <p> Please use the contact form on the right side if you have any questions or requests, concerning our services. <br>We will respond to your message within 24 hours.</p>
     
-        <a href="#" class="twitter cta-btn "><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook cta-btn"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram cta-btn"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus cta-btn"><i class="bx bxl-skype"></i></a>
+        <a href="https://www.twitter.com/@OMKARTI22520291" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.twitter.com/@OMKARTI22520291" class="twitter cta-btn "><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/omkar.tiwari.79677471" class="facebook cta-btn"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/omkartiwari93/" class="instagram cta-btn"><i class="bx bxl-instagram"></i></a>
+        <a href="skype:live:.cid.1b5c6f5cd13b3351?chat" class="google-plus cta-btn"><i class="bx bxl-skype"></i></a>
         <a href="#" class="linkedin cta-btn"><i class="bx bxl-linkedin"></i></a>
 
         </div>
@@ -86,18 +87,18 @@ if(isset($_POST['submit']))
         <div class="row">
 
           <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127482.6881405034!2d101.6169488902334!3d3.138503559663121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49c701efeae7%3A0xf4d98e5b2f1c287d!2sKuala%20Lumpur%2C%20Federal%20Territory%20of%20Kuala%20Lumpur%2C%20Malaysia!5e0!3m2!1sen!2sin!4v1589645210749!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116105.11094086243!2d80.73300816657147!3d24.57936840659748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39847f12a0d55141%3A0xa6208334386e35e2!2sSatna%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1644566252519!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             <div class="info mt-4">
               <i class="icofont-google-map"></i>
               <h4>Location:</h4>
-              <p>Brigade meadows, Bangalore - 560082, Karnataka, India</p>
+              <p>Karahi Road, Satna - 485001, Madhay Pradesh, India</p>
             </div>
             <div class="row">
               <div class="col-lg-6 mt-4">
                 <div class="info">
                   <i class="icofont-envelope"></i>
                   <h4>Email:</h4>
-                  <p>tiwariomkar1989@gmail.com</p>
+                  <a href="mailto:info@tutorialdeep.com">tiwariomkar1989@gmail.com</a>
                 </div>
               </div>
               <div class="col-lg-6">

@@ -18,36 +18,34 @@ if(isset($_SESSION['adminid']))
 }
 if($_SESSION['randnumber']  == $_POST['randnumber'])
 {
+	if(isset($_POST['submit']))
+	{
+		$sql = "SELECT * FROM customer WHERE email_id='$_POST[emailid]' ";
+		$qsql = mysqli_query($con,$sql);
+		if(mysqli_num_rows($qsql) == 1)
+		{
+			$rslogin = mysqli_fetch_array($qsql);		
+			$to = $rslogin['email_id'];
+			$subject = "Login credentials";
+			$message = "Hello $rslogin[customer_name], \n your password is : $rslogin[password]";
+			$from = "contact@agribuzzpro.com";
+			$headers = "From: $from";
+			//mail($to,$subject,$message,$headers);
+			include("phpmailer.php");
+			sendmail($to, "Agriculture" , $subject, $message);
+			echo "<script>alert('Check Your E-Mail For Your Password... Click Ok to Be redirected to password rest page');</script>";	
+			
+
+		}
+		else
+		{
+			echo "<script>alert('Email ID does not exist..');</script>";	
+		}
+	}
+}
 if(isset($_SESSION['sellerid']))
 {
 	echo "<script>window.location='sellerpanel.php';</script>";
-}
-if($_SESSION['randnumber']  == $_POST['randnumber'])
-{
-if(isset($_POST['submit']))
-{
-	$sql = "SELECT * FROM customer WHERE email_id='$_POST[emailid]' ";
-	$qsql = mysqli_query($con,$sql);
-	if(mysqli_num_rows($qsql) == 1)
-	{
-		$rslogin = mysqli_fetch_array($qsql);
-		
-$to = $rslogin['email_id'];
-$subject = "Login credentials";
-$message = "Hello $rslogin[customer_name], \n your password is : $rslogin[password]";
-$from = "contact@agribuzzpro.com";
-$headers = "From: $from";
-	//mail($to,$subject,$message,$headers);
-	include("phpmailer.php");
-	sendmail($to, "Agribuzz" , $subject, $message);
-		echo "<script>alert('Check Your E-Mail For Your Password...');</script>";	
-
-	}
-	else
-	{
-		echo "<script>alert('Email ID does not exist..');</script>";	
-	}
-}
 }
 $randnumber = rand();
 $_SESSION['randnumber'] = $randnumber;
