@@ -7,6 +7,6 @@ Using Technology:</h1> Xampp, apache-server, php, phpmyadmin, Mysql(database), H
 
 >Enterprise performance management implementation consulting.
 
->Finacial data collection, integration and statistical analysis.
+>Financial data collection, integration and statistical analysis.
 
->Building and maintaining enterprise performance management finacial models.
+>Building and maintaining enterprise performance management financial models.
